@@ -1,6 +1,6 @@
 body{
   background-image: url(wholeBG.jpg);
-  background-repeat: no-repeat;
+  background-repeat:  space;
   background-size: cover;
   margin: auto;
 }
@@ -8,27 +8,27 @@ body{
 
 h1{
   display: block;
-  width: 550px;
+  width: 40%;
   position: absolute;
-  top: 0.5%;
-  left: 3%;
+  top: -1vw;
+  left: 3vw;
   border: 5px solid white;
   background-image: url(nameBG.gif);
   box-shadow: 5px 5px 20px 5px blue;
   background-size: contain;
   color: white;
-  font-family: Arial black;
+  font: 1.6vw 'Press Start 2P', cursive;
   text-align: center;
   border-radius: 20px;
+  padding: 15px 7px;
 }
 #Prof-Container{
   display: flex;
   flex-wrap: wrap;
-  max-width: 100%;
-  position: absolute;
-  padding: 10px 30px;
-  top: 15%;
-  left: 3%;
+  width: 60%;
+  position: relative;
+  top: 7vw;
+  left: 1vw;
   border-radius: 20px;
   border: 5px solid white;
   box-shadow: 5px 5px 20px 5px blue;
@@ -37,16 +37,17 @@ h1{
   z-index: 1;
 }
 
-.Details p{
-  font: bold 15px 'Press Start 2P', cursive;
-  text-align: justify;
-  display: block;
-  margin: 25px 15px;
+#Prof-Container ul li{
+  font: bold 1.4vw arial black;
+  list-style-type: none;
+  margin: 15px 6px;
   color: white;
   text-shadow: 4px 2px #990066;
 }
 #profPic{
   float: left;
+  max-width: 16vw;
+  margin: 5px;
   border-radius: 50%;
   box-shadow: 5px 5px 20px 5px black;
   border: 5px solid white;
@@ -57,10 +58,10 @@ h1{
 #careerOb{
   display: flex;
   flex-wrap: wrap;
-  width: 750px;
-  position: absolute;
-  top: 58%;
-  right: 2%;
+  width: 60%;
+  position: relative;
+  top: 9vw;
+  left: 31vw;
   border-radius: 20px;
   border: 5px solid white;
   padding: 10px 30px;
@@ -70,14 +71,13 @@ h1{
 }
 .careerCont{
   color: white;
-  font: bold 20px arial black;
+  font: bold 1.4vw arial black;
   text-shadow: 4px 2px #990066;
 }
 
 #careerOb span img{
   float: left;
-  width: 210px;
-  height: 210px;
+  max-width: 16vw;
   margin: 10px;
   border-radius: 50%;
   border: 5px solid white;
@@ -88,12 +88,12 @@ h1{
   position: absolute;
   right: 30%;
   top: 30%;
-  width: 100px;
-  height: 100px;
+  width: 8vw;
+  height: 8vw;
   border-radius: 60%;
   box-shadow: 0 0 40px 45px black;
   animation: bhole2 0.03s;
-  animation-iteration-count: 400;
+  animation-iteration-count: 300;
   animation-direction: alternate;
   animation-timing-function: cubic-bezier(.25,1,.75,0);
   animation-delay: 2s;
@@ -113,10 +113,12 @@ h1{
 
 .bholecont{
   position: relative;
-  top: 80px;
-  left: 1200px;
+  top: -11em;
+  right: 7em;
+  float: right;
   display: inline-flex;
   flex-wrap: wrap;
+  margin: 0;
   width: 1px;
   height: 1px;
   border: hidden;
@@ -133,15 +135,13 @@ h1{
 }
 
 @keyframes pull {
-  from {left: 0px; width: 1200px;height: 1200px; box-shadow: 10px 10px 1000px 1500px #000033;}
-  to {left: 1200px; width: 1px; height: 1px;  box-shadow: 10px 10px 100px 150px black;}
+  from {right: 15em; width: 30vw;height: 30vw; box-shadow: 10px 10px 1000px 1500px #000033;}
+  to {right: 7em; width: 1px; height: 1px;  box-shadow: 10px 10px 100px 150px black;}
 }
 
 .bholecont:hover{
-  top: 50px;
-  left: 1000px;
-  width: 250px;
-  height: 255px;
+  width: 20vw;
+  height: 20vw;
   opacity: 1;
 }
 
@@ -299,7 +299,7 @@ h1{
   width: 200px;
   height: 30px;
   font: 15px fantasy;
-  left: -25%;
+  left: -33%;
   transition: 3s;
   z-index: 1;
 }
