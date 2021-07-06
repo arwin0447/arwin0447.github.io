@@ -1,0 +1,79 @@
+  #Top{
+    font-family: fantasy;
+    font-size: 4em;
+    background: silver;
+  }
+  #heading1{
+    background:silver;
+    font-style:italic;
+    font-family:courier;
+  }
+  #heading2{
+    background:silver;
+    font-style:italic;
+    font-family:courier;
+  }
+  #opener{
+    font-family:fantasy;
+    font-style:underline;
+    font-size:25px;
+    background:silver;
+  }
+  .table1{
+    background:yellow;
+    font-family:fantasy;
+  }
+  .table2{
+    background:brown;
+    font-family:fantasy;
+  }
+
+  a:visited{
+    color: #00ffff;
+  }
+  a:hover{
+    color: #6e7f80;
+    font-size: 2em;
+  }
+  #BT{
+    border-style: groove;
+    border-color: #21abcd;
+  }
+  #BT:hover{
+    width: 400px;
+    height: 320px;
+    border: 1em;
+    border-style: dashed;
+    border-color: #cd9575;
+  }
+  #RV{
+    border-style: groove;
+    border-color: #ff9966;
+  }
+  #RV:hover{
+    width: 400px;
+    height: 320px;
+    border: 1em;
+    border-style: dashed;
+    border-color: #b31b1b;
+  }
+  #UM{
+    border-style: groove;
+    border-color: #556b2f;
+  }
+  #UM:hover{
+    width: 400px;
+    height: 320px;
+    border: 1em;
+    border-style: dashed;
+    border-color:	#03c03c;
+  }
+  #order:hover{
+    background-color: #a0785a;
+    font-style: oblique;
+    font-family: fantasy;
+    font-size: 2em;
+  }
+  input:focus{
+    background-color: #f4bbff;
+  }
