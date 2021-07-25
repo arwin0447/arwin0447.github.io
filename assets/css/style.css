@@ -234,8 +234,10 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 2;
   min-width: 300px;
 }
-@media screen (min-width: 500px) {
-  #hero .hero-container{left: 15vw;}
+@media screen and (max-width: 500px) {
+  #hero .hero-container{
+    left: 15vw;
+  }
 }
 
 #hero h1 {
